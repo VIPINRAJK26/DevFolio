@@ -1,7 +1,7 @@
-import { useState, useEffect } from 'react';
-import { Button } from '@/components/ui/button';
-import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
-import heroImage from '@/assets/hero-bg.jpg';
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import heroImage from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -34,7 +34,7 @@ const Hero = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
-            className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
+            className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
           >
             Designing interfaces. Building APIs. Delivering value
           </h1>
@@ -44,42 +44,52 @@ const Hero = () => {
             data-aos-duration="900"
             className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Code-driven UI architect, obsessed with clean design & performance
-            — built with React & Python
+            Code-driven UI architect, obsessed with clean design & performance —
+            built with React & Python
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button
-              size="lg"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="gradient-primary hover:glow-primary transition-smooth"
-            >
-              <a href="#projects">View My Work</a>
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
-            >
-              <a href="#contact">Get In Touch</a>
-            </Button>
+            <a href="#projects">
+              <Button
+                size="lg"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="gradient-primary hover:glow-primary transition-smooth"
+              >
+                View My Work
+              </Button>
+            </a>
+            <a href="#contact">
+              <Button
+                variant="outline"
+                size="lg"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+              >
+                Get In Touch
+              </Button>
+            </a>
           </div>
 
           {/* Social links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="#"
+              title="Github"
+              href="https://github.com/VIPINRAJK26"
               data-aos="fade-up"
               data-aos-duration="1100"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-smooth hover:glow-primary"
             >
               <Github className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              title="Linkedin"
+              href="www.linkedin.com/in/vipinraj26"
+              target="_blank"
+              rel="noopener noreferrer"
               data-aos="fade-up"
               data-aos-duration="1200"
               className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-smooth hover:glow-primary"
@@ -87,9 +97,12 @@ const Hero = () => {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="#"
+              title="Email"
+              href="mailto:vipinrajk026@gmail.com"
               data-aos="fade-up"
               data-aos-duration="1300"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 rounded-full border border-primary/30 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-smooth hover:glow-primary"
             >
               <Mail className="w-5 h-5" />

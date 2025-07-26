@@ -8,21 +8,21 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/yourusername",
-      username: "@yourusername"
+      url: "https://github.com/VIPINRAJK26",
+      username: "@VIPINRAJK26",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
       url: "https://linkedin.com/in/yourprofile",
-      username: "/in/yourprofile"
+      username: "vipinraj26",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      url: "mailto:your.email@example.com",
-      username: "your.email@example.com"
-    }
+      url: "https://www.instagram.com/_v_pin__?igsh=bG0zNmh5dXdwemwy",
+      username: "_v_pin__",
+    },
   ];
 
   const contactInfo = [

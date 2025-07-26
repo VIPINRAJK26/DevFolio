@@ -116,9 +116,11 @@ const Skills = () => {
                 <div
                   data-aos="fade-up"
                   data-aos-duration="1100"
-                  className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md z-20"
+                  className="absolute -top-4 left-0 w-full flex justify-center z-20"
                 >
-                  {category.title}
+                  <div className="bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md">
+                    {category.title}
+                  </div>
                 </div>
 
                 {/* Skill Icons */}
@@ -164,9 +166,7 @@ const Skills = () => {
                 className="flex items-center gap-3 px-6 py-3 rounded-full border border-primary/20 gradient-card hover:glow-primary transition-smooth"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <tool.icon
-                  className="w-5 h-5 text-primary"
-                />
+                <tool.icon className="w-5 h-5 text-primary" />
                 <span
                   data-aos="fade-up"
                   data-aos-duration="1100"

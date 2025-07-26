@@ -1,5 +1,5 @@
-import { Button } from '@/components/ui/button';
-import { ExternalLink, Github, Eye } from 'lucide-react';
+import { Button } from "@/components/ui/button";
+import { ExternalLink, Github, Eye } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -230,15 +230,22 @@ const Projects = () => {
         </div>
 
         <div className="text-center mt-12">
-          <Button
-            variant="outline"
-            size="lg"
-            data-aos="fade-up"
-            data-aos-duration="1400"
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+          <a
+            title="Github"
+            href="https://github.com/VIPINRAJK26"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            View All Projects on GitHub
-          </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              data-aos="fade-up"
+              data-aos-duration="1400"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+            >
+              View All Projects on GitHub
+            </Button>
+          </a>
         </div>
       </div>
     </section>
