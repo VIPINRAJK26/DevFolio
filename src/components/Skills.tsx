@@ -31,26 +31,26 @@ const Skills = () => {
         { name: "MongoDB", level: 82, icon: "🍃" }
       ]
     },
-    {
-      title: "Mobile",
-      icon: Smartphone,
-      skills: [
-        { name: "React Native", level: 80, icon: "📱" },
-        { name: "Flutter", level: 75, icon: "🦋" },
-        { name: "iOS", level: 70, icon: "🍎" },
-        { name: "Android", level: 72, icon: "🤖" }
-      ]
-    },
-    {
-      title: "DevOps",
-      icon: Cloud,
-      skills: [
-        { name: "AWS", level: 85, icon: "☁️" },
-        { name: "Docker", level: 88, icon: "🐳" },
-        { name: "Kubernetes", level: 78, icon: "⚙️" },
-        { name: "CI/CD", level: 82, icon: "🔄" }
-      ]
-    }
+    // {
+    //   title: "Mobile",
+    //   icon: Smartphone,
+    //   skills: [
+    //     { name: "React Native", level: 80, icon: "📱" },
+    //     { name: "Flutter", level: 75, icon: "🦋" },
+    //     { name: "iOS", level: 70, icon: "🍎" },
+    //     { name: "Android", level: 72, icon: "🤖" }
+    //   ]
+    // },
+    // {
+    //   title: "DevOps",
+    //   icon: Cloud,
+    //   skills: [
+    //     { name: "AWS", level: 85, icon: "☁️" },
+    //     { name: "Docker", level: 88, icon: "🐳" },
+    //     { name: "Kubernetes", level: 78, icon: "⚙️" },
+    //     { name: "CI/CD", level: 82, icon: "🔄" }
+    //   ]
+    // }
   ];
 
   const tools = [
@@ -78,7 +78,7 @@ const Skills = () => {
         </div>
         
         {/* Skill Categories */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-2  gap-8 mb-16">
           {skillCategories.map((category, index) => (
             <div 
               key={category.title}

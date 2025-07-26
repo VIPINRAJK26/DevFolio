@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Github, Linkedin, Mail, Twitter, MapPin, Phone } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Phone, Instagram } from 'lucide-react';
 
 const Contact = () => {
   const socialLinks = [
@@ -18,14 +18,8 @@ const Contact = () => {
       username: "/in/yourprofile"
     },
     {
-      name: "Twitter",
-      icon: Twitter,
-      url: "https://twitter.com/yourusername",
-      username: "@yourusername"
-    },
-    {
-      name: "Email",
-      icon: Mail,
+      name: "Instagram",
+      icon: Instagram,
       url: "mailto:your.email@example.com",
       username: "your.email@example.com"
     }
@@ -35,17 +29,17 @@ const Contact = () => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Your City, Country"
+      value: "Kozhikode, Kerala, India"
     },
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com"
+      value: "vipinrajk026@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567"
+      value: "+91 9495810118"
     }
   ];
 

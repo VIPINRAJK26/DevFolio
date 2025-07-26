@@ -16,7 +16,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with over 3 years of experience building 
+                I'm a passionate full-stack developer with over 1 year of experience building 
                 scalable web applications. I love turning complex problems into simple, 
                 beautiful solutions.
               </p>
@@ -29,11 +29,11 @@ const About = () => {
               
               <div className="grid grid-cols-2 gap-6 pt-6">
                 <div className="text-center p-4 rounded-lg gradient-card">
-                  <h4 className="text-2xl font-bold text-primary mb-2">50+</h4>
+                  <h4 className="text-2xl font-bold text-primary mb-2">15+</h4>
                   <p className="text-muted-foreground">Projects Completed</p>
                 </div>
                 <div className="text-center p-4 rounded-lg gradient-card">
-                  <h4 className="text-2xl font-bold text-secondary mb-2">3+</h4>
+                  <h4 className="text-2xl font-bold text-secondary mb-2">1+</h4>
                   <p className="text-muted-foreground">Years Experience</p>
                 </div>
               </div>
