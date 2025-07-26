@@ -75,26 +75,42 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
           <div className="gradient-card p-8 rounded-xl border border-primary/20">
-            <h3 className="text-2xl font-semibold mb-6 text-foreground">
+            <h3
+              data-aos="fade-up"
+              data-aos-duration="700"
+              className="text-2xl font-semibold mb-6 text-foreground"
+            >
               Send a Message
             </h3>
 
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     First Name
                   </label>
                   <Input
+                    data-aos="fade-up"
+                    data-aos-duration="900"
                     placeholder="John"
                     className="bg-background border-border"
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-foreground mb-2">
+                  <label
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    className="block text-sm font-medium text-foreground mb-2"
+                  >
                     Last Name
                   </label>
                   <Input
+                    data-aos="fade-up"
+                    data-aos-duration="900"
                     placeholder="Doe"
                     className="bg-background border-border"
                   />
@@ -102,10 +118,16 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Email
                 </label>
                 <Input
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
                   type="email"
                   placeholder="john.doe@example.com"
                   className="bg-background border-border"
@@ -113,27 +135,43 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Subject
                 </label>
                 <Input
+                  data-aos="fade-up"
+                  data-aos-duration="1300"
                   placeholder="Project Discussion"
                   className="bg-background border-border"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-foreground mb-2">
+                <label
+                  data-aos="fade-up"
+                  data-aos-duration="1400"
+                  className="block text-sm font-medium text-foreground mb-2"
+                >
                   Message
                 </label>
                 <Textarea
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
                   placeholder="Tell me about your project..."
                   rows={5}
                   className="bg-background border-border resize-none"
                 />
               </div>
 
-              <Button className="w-full gradient-primary hover:glow-primary transition-smooth">
+              <Button
+                data-aos="fade-up"
+                data-aos-duration="1600"
+                className="w-full gradient-primary hover:glow-primary transition-smooth"
+              >
                 Send Message
               </Button>
             </form>
@@ -143,21 +181,39 @@ const Contact = () => {
           <div className="space-y-8">
             {/* Contact Information */}
             <div className="gradient-card p-8 rounded-xl border border-primary/20">
-              <h3 className="text-2xl font-semibold mb-6 text-foreground">
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="800"
+                className="text-2xl font-semibold mb-6 text-foreground"
+              >
                 Get in Touch
               </h3>
 
               <div className="space-y-6">
                 {contactInfo.map((info) => (
                   <div key={info.label} className="flex items-start gap-4">
-                    <div className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0">
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="900"
+                      className="w-12 h-12 rounded-lg gradient-primary flex items-center justify-center flex-shrink-0"
+                    >
                       <info.icon className="w-5 h-5 text-primary-foreground" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-foreground">
+                      <h4
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        className="font-medium text-foreground"
+                      >
                         {info.label}
                       </h4>
-                      <p className="text-muted-foreground">{info.value}</p>
+                      <p
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        className="text-muted-foreground"
+                      >
+                        {info.value}
+                      </p>
                     </div>
                   </div>
                 ))}
@@ -166,11 +222,19 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="gradient-card p-8 rounded-xl border border-primary/20">
-              <h3 className="text-2xl font-semibold mb-6 text-foreground">
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                className="text-2xl font-semibold mb-6 text-foreground"
+              >
                 Connect with Me
               </h3>
 
-              <div className="space-y-4">
+              <div
+                className="space-y-4"
+                data-aos="fade-up"
+                data-aos-duration="1100"
+              >
                 {socialLinks.map((social) => (
                   <a
                     key={social.name}
@@ -179,14 +243,26 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg border border-primary/20 hover:bg-primary/10 transition-smooth group"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center group-hover:glow-primary transition-smooth">
+                    <div
+                      data-aos="fade-up"
+                      data-aos-duration="1200"
+                      className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center group-hover:glow-primary transition-smooth"
+                    >
                       <social.icon className="w-5 h-5 text-primary-foreground" />
                     </div>
                     <div>
-                      <h4 className="font-medium text-foreground">
+                      <h4
+                        data-aos="fade-up"
+                        data-aos-duration="1300"
+                        className="font-medium text-foreground"
+                      >
                         {social.name}
                       </h4>
-                      <p className="text-sm text-muted-foreground">
+                      <p
+                        data-aos="fade-up"
+                        data-aos-duration="1400"
+                        className="text-sm text-muted-foreground"
+                      >
                         {social.username}
                       </p>
                     </div>

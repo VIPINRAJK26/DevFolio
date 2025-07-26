@@ -82,11 +82,23 @@ const Skills = () => {
 
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent"
+          >
             Skills & Expertise
           </h2>
-          <div className="w-24 h-1 gradient-primary mx-auto rounded-full mb-8" />
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="900"
+            className="w-24 h-1 gradient-primary mx-auto rounded-full mb-8"
+          />
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="text-lg text-muted-foreground max-w-2xl mx-auto"
+          >
             Proficient in modern technologies and frameworks with a focus on
             creating scalable, maintainable, and user-friendly applications.
           </p>
@@ -101,15 +113,25 @@ const Skills = () => {
                 className="relative group bg-white/5 backdrop-blur-md p-6 rounded-3xl border border-white/10 shadow-xl hover:shadow-2xl transition-all duration-300"
               >
                 {/* Floating Category Label */}
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md z-20">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                  className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-secondary text-white text-sm font-semibold px-4 py-1 rounded-full shadow-md z-20"
+                >
                   {category.title}
                 </div>
 
                 {/* Skill Icons */}
-                <div className="mt-8 grid grid-cols-3 gap-6 pb-3">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  className="mt-8 grid grid-cols-3 gap-6 pb-3"
+                >
                   {category.skills.map((skill, skillIndex) => (
                     <div
                       key={skill.name}
+                      data-aos="fade-up"
+                      data-aos-duration="1300"
                       className="relative w-16 h-16 mx-auto flex items-center justify-center rounded-full bg-white/10 border border-white/20 backdrop-blur-lg shadow-lg hover:scale-110 hover:shadow-2xl transition-all duration-300"
                     >
                       {React.createElement(skill.icon, {
@@ -126,18 +148,32 @@ const Skills = () => {
 
         {/* Tools */}
         <div className="text-center">
-          <h3 className="text-2xl font-semibold mb-8 text-foreground">
+          <h3
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className="text-2xl font-semibold mb-8 text-foreground"
+          >
             Tools & Platforms
           </h3>
           <div className="flex flex-wrap justify-center gap-6">
             {tools.map((tool, index) => (
               <div
                 key={tool.name}
+                data-aos="fade-up"
+                data-aos-duration="900"
                 className="flex items-center gap-3 px-6 py-3 rounded-full border border-primary/20 gradient-card hover:glow-primary transition-smooth"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <tool.icon className="w-5 h-5 text-primary" />
-                <span className="text-foreground font-medium">{tool.name}</span>
+                <tool.icon
+                  className="w-5 h-5 text-primary"
+                />
+                <span
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                  className="text-foreground font-medium"
+                >
+                  {tool.name}
+                </span>
               </div>
             ))}
           </div>

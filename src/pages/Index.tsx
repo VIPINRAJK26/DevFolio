@@ -6,6 +6,7 @@ import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import WhatsAppButton from "@/components/ui/whatspp";
 
 
 const Index = () => {
@@ -70,6 +71,7 @@ const Index = () => {
       <Skills />
       <Projects />
       <Contact />
+      <WhatsAppButton />
     </div>
   );
 };

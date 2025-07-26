@@ -146,6 +146,8 @@ const Projects = () => {
             >
               <div className="relative overflow-hidden">
                 <img
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
                   src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
@@ -167,14 +169,26 @@ const Projects = () => {
               </div>
 
               <div className="p-4">
-                <h4 className="text-lg font-semibold mb-2 text-foreground">
+                <h4
+                  data-aos="fade-up"
+                  data-aos-duration="1100"
+                  className="text-lg font-semibold mb-2 text-foreground"
+                >
                   {project.title}
                 </h4>
-                <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+                <p
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  className="text-sm text-muted-foreground mb-3 line-clamp-2"
+                >
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-1">
+                <div
+                  data-aos="fade-up"
+                  data-aos-duration="1300"
+                  className="flex flex-wrap gap-1"
+                >
                   {project.tags.slice(0, 3).map((tag) => (
                     <span
                       key={tag}
@@ -198,6 +212,8 @@ const Projects = () => {
           <Button
             variant="outline"
             size="lg"
+            data-aos="fade-up"
+            data-aos-duration="1400"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
           >
             View All Projects on GitHub
