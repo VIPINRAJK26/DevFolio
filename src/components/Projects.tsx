@@ -9,7 +9,7 @@ const Projects = () => {
         "Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
       live: "https://exedu.in",
     },
@@ -29,7 +29,7 @@ const Projects = () => {
         "Responsive portfolio website with smooth animations, dark theme, and optimized performance.",
       image:
         "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      tags: ["React", "Tailwind CSS", "Framer Motion"],
+      tags: ["html", "css", "Bootstrap", "Framer Motion"],
       github: "#",
       live: "https://exbotupdate.netlify.app/",
     },
@@ -39,7 +39,7 @@ const Projects = () => {
         "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image:
         "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tags: ["Vue.js", "Express", "Socket.io", "MongoDB"],
+      tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://dahsboard.warriorind.in",
     },
@@ -49,7 +49,7 @@ const Projects = () => {
         "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
       image:
         "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tags: ["React", "TypeScript", "OpenWeather API"],
+      tags: ["React", "Django", "Docker", "Bootstrap"],
       github: "#",
       live: "https://warriorind.in",
     },
@@ -59,7 +59,7 @@ const Projects = () => {
         "Analytics dashboard for social media management with data visualization and automated reporting features.",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      tags: ["Next.js", "Chart.js", "Python", "FastAPI"],
+      tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://pkstones.com",
     },
@@ -70,7 +70,7 @@ const Projects = () => {
         "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
       image:
         "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      tags: ["React", "WebSocket", "OpenAI", "Express"],
+      tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
       live: "https://tezla.in",
     },
@@ -80,9 +80,17 @@ const Projects = () => {
         "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
       image:
         "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      tags: ["React", "WebSocket", "OpenAI", "Express"],
+      tags: [
+        "React",
+        "Python",
+        "Framer Motion",
+        "REST API",
+        "SQLite",
+        "Tailwind CSS",
+      ],
+
       github: "#",
-      live: "https://tezla.in",
+      live: "https://super-marine-frontend.vercel.app/",
     },
     {
       title: "CATTA FOOTWEAR",
@@ -90,7 +98,8 @@ const Projects = () => {
         "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
       image:
         "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      tags: ["React", "WebSocket", "OpenAI", "Express"],
+      tags: ["React", "Bootstrap", "CSS"],
+
       github: "#",
       live: "https://catta.in",
     },
@@ -100,7 +109,7 @@ const Projects = () => {
         "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
       image:
         "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      tags: ["React", "WebSocket", "OpenAI", "Express"],
+      tags: ["React", "Bootstrap", "CSS"],
       github: "#",
       live: "https://abacafootwear.com",
     },
@@ -110,7 +119,19 @@ const Projects = () => {
         "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
       image:
         "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
-      tags: ["React", "WebSocket", "OpenAI", "Express"],
+      tags: ["React", "Tailwind CSS", "TypeScript"],
+
+      github: "#",
+      live: "https://twinkleoffset.netlify.app/",
+    },
+    {
+      title: "AURA Car Wash",
+      description:
+        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+      image:
+        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+      tags: ["React", "Tailwind CSS", "TypeScript"],
+
       github: "#",
       live: "https://twinkleoffset.netlify.app/",
     },

@@ -34,18 +34,18 @@ const Hero = () => {
           <h1
             data-aos="fade-up"
             data-aos-duration="800"
-            className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
+            className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
           >
-            Full Stack Developer
+            Designing interfaces. Building APIs. Delivering value
           </h1>
 
           <p
             data-aos="fade-up"
             data-aos-duration="900"
-            className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Crafting exceptional digital experiences with modern technologies
-            and innovative solutions
+            Code-driven UI architect, obsessed with clean design & performance
+            — built with React & Python
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
