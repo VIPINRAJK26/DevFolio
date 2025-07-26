@@ -26,7 +26,7 @@ const About = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                className="text-lg text-muted-foreground leading-relaxed"
+                className="text-lg text-justify md:text-start text-muted-foreground leading-relaxed"
               >
                 I'm a passionate full-stack developer with over 1 year of
                 experience building scalable web applications. I love turning
@@ -36,7 +36,7 @@ const About = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1100"
-                className="text-lg text-muted-foreground leading-relaxed"
+                className="text-lg text-justify md:text-start text-muted-foreground leading-relaxed"
               >
                 My expertise spans from frontend frameworks like React and
                 Next.js to backend technologies including Python, and cloud
