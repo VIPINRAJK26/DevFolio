@@ -122,36 +122,42 @@ const Projects = () => {
     <section id="projects" className="py-20 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-1/2 right-0 w-96 h-96 bg-gradient-to-l from-accent/10 to-primary/10 rounded-full blur-3xl" />
-      
+
       <div className="container mx-auto px-6">
-        
-        
         {/* Other Projects Grid */}
         <div className="text-center mb-12">
-          <h3 className="text-2xl md:text-4xl font-semibold mb-8 text-foreground">Featured Projects</h3>
+          <h3
+            data-aos="fade-up"
+            data-aos-duration="800"
+            className="text-2xl md:text-4xl font-semibold mb-8 text-foreground"
+          >
+            Featured Projects
+          </h3>
         </div>
-        
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div 
+            <div
               key={project.title}
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="project-card gradient-card rounded-xl overflow-hidden border border-primary/20 group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <a 
+                  <a
                     href={project.live}
                     className="w-8 h-8 rounded-full bg-primary/90 flex items-center justify-center hover:bg-primary transition-colors"
                   >
                     <ExternalLink className="w-4 h-4 text-primary-foreground" />
                   </a>
-                  <a 
+                  <a
                     href={project.github}
                     className="w-8 h-8 rounded-full bg-foreground/90 flex items-center justify-center hover:bg-foreground transition-colors"
                   >
@@ -159,14 +165,18 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
-              
+
               <div className="p-4">
-                <h4 className="text-lg font-semibold mb-2 text-foreground">{project.title}</h4>
-                <p className="text-sm text-muted-foreground mb-3 line-clamp-2">{project.description}</p>
-                
+                <h4 className="text-lg font-semibold mb-2 text-foreground">
+                  {project.title}
+                </h4>
+                <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+                  {project.description}
+                </p>
+
                 <div className="flex flex-wrap gap-1">
                   {project.tags.slice(0, 3).map((tag) => (
-                    <span 
+                    <span
                       key={tag}
                       className="px-2 py-1 text-xs font-medium rounded bg-muted text-muted-foreground"
                     >
@@ -183,9 +193,13 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-12">
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+          <Button
+            variant="outline"
+            size="lg"
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+          >
             View All Projects on GitHub
           </Button>
         </div>
