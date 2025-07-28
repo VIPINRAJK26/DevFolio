@@ -6,9 +6,9 @@ const Projects = () => {
     {
       title: "exedu - Hybrid AI Learning Platform",
       description:
-        "Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+        "Full-stack e-learning solution with React, Python, and REST API. Features include user authentication, course management and admin dashboard.",
       image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+        "/exedu.jpg",
       tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
       live: "https://exedu.in",
@@ -16,9 +16,9 @@ const Projects = () => {
     {
       title: "extechnology - AI Powered Software Development Services",
       description:
-        "Responsive portfolio website with smooth animations, dark theme, and optimized performance.",
+        "Website for AI-powered software development services. Responsive Modern website with smooth animations, dark theme, and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+        "/technology.jpg",
       tags: ["React", "Tailwind CSS", "Framer Motion"],
       github: "#",
       live: "https://extechnology.in",
@@ -26,9 +26,9 @@ const Projects = () => {
     {
       title: "exbot - Whatsapp Automation",
       description:
-        "Responsive portfolio website with smooth animations, dark theme, and optimized performance.",
+        "Website for Whatsapp Automation.Minimalistic website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+        "/exbot.jpg",
       tags: ["html", "css", "Bootstrap", "Framer Motion"],
       github: "#",
       live: "https://exbotupdate.netlify.app/",
@@ -36,9 +36,9 @@ const Projects = () => {
     {
       title: "Warrior - Solar Energy Dashboard",
       description:
-        "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+        "Dashboard for solar energy management with data visualization and automated reporting features.",
       image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+        "/dash-board-min.jpg",
       tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://dahsboard.warriorind.in",
@@ -46,9 +46,9 @@ const Projects = () => {
     {
       title: "Warrior - Solar Power & Energy Solutions",
       description:
-        "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
+        "e-commerce website for solar power and energy solutions. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+        "/warrior-min.jpg",
       tags: ["React", "Django", "Docker", "Bootstrap"],
       github: "#",
       live: "https://warriorind.in",
@@ -56,9 +56,9 @@ const Projects = () => {
     {
       title: "P K Stones",
       description:
-        "Analytics dashboard for social media management with data visualization and automated reporting features.",
+        "website for displaying stone products created with React and Python ",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+        "/stone.jpg",
       tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://pkstones.com",
@@ -67,9 +67,10 @@ const Projects = () => {
     {
       title: "TEZLA - Energy Solutions",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "e-commerce website for energy solutions. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+         "/tezla-min.jpg",
+
       tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
       live: "https://tezla.in",
@@ -77,9 +78,9 @@ const Projects = () => {
     {
       title: "SUPER MARINE MOTOR CYCLES & JET SKI L.L.C.",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "Booking platform for motor cycles and jet skis. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+          "/super-marine-min.jpg",
       tags: [
         "React",
         "Python",
@@ -95,9 +96,9 @@ const Projects = () => {
     {
       title: "CATTA FOOTWEAR",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "Footwear website for Catta Footwear. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+          "/catta-min.jpg",
       tags: ["React", "Bootstrap", "CSS"],
 
       github: "#",
@@ -106,9 +107,9 @@ const Projects = () => {
     {
       title: "ABACCA FOOTWEAR",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "Footwear website for Catta Footwear. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+        "/abaca-min.jpg",
       tags: ["React", "Bootstrap", "CSS"],
       github: "#",
       live: "https://abacafootwear.com",
@@ -116,9 +117,9 @@ const Projects = () => {
     {
       title: "TWINKLE Offset Press",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "Frontend for Twinkle Offset Press, a printing company. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+                "/twinkle-min.jpg",
       tags: ["React", "Tailwind CSS", "TypeScript"],
 
       github: "#",
@@ -127,9 +128,9 @@ const Projects = () => {
     {
       title: "AURA Car Wash",
       description:
-        "Real-time chat application with AI integration, message encryption, and file sharing capabilities.",
+        "Frontend UI for AURA Car Wash, a car wash company. Responsive Modern website with smooth animations and optimized performance.",
       image:
-        "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=600&h=400&fit=crop",
+        "/car-wash-min.jpg",
       tags: ["React", "Tailwind CSS", "TypeScript"],
 
       github: "#",
@@ -137,7 +138,6 @@ const Projects = () => {
     },
   ];
 
-  // const featuredProjects = projects.filter(p => p.featured);
 
   return (
     <section id="projects" className="py-20 relative overflow-hidden">

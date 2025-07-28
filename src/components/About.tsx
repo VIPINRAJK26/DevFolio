@@ -55,7 +55,7 @@ const About = () => {
                     data-aos-duration="900"
                     className="text-2xl font-bold text-primary mb-2"
                   >
-                    15+
+                    20+
                   </h4>
                   <p
                     data-aos="fade-up"
