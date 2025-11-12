@@ -4,21 +4,37 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
+      title: "Fleeby - Online shopping platform",
+      description:
+        "An e-commerce platform with React, Python, and REST API. Features include user authentication, product management, and admin dashboard.",
+      image: "/fleeby.webp",
+      tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
+      github: "#",
+      live: "https://fleeby.in",
+    },
+    {
       title: "exedu - Hybrid AI Learning Platform",
       description:
         "Full-stack e-learning solution with React, Python, and REST API. Features include user authentication, course management and admin dashboard.",
-      image:
-        "/exedu.jpg",
+      image: "/exedu.jpg",
       tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
       live: "https://exedu.in",
     },
     {
+      title: "exedu - CRM ",
+      description:
+        "CRM/Dashboard for exedu with React, Python, and REST API. Features include user authentication, course management and admin dashboard.",
+      image: "/exedu-CRM.jpg",
+      tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
+      github: "#",
+      live: "https://dashboard.exedu.in",
+    },
+    {
       title: "extechnology - AI Powered Software Development Services",
       description:
         "Website for AI-powered software development services. Responsive Modern website with smooth animations, dark theme, and optimized performance.",
-      image:
-        "/technology.jpg",
+      image: "/technology.jpg",
       tags: ["React", "Tailwind CSS", "Framer Motion"],
       github: "#",
       live: "https://extechnology.in",
@@ -27,8 +43,7 @@ const Projects = () => {
       title: "exbot - Whatsapp Automation",
       description:
         "Website for Whatsapp Automation.Minimalistic website with smooth animations and optimized performance.",
-      image:
-        "/exbot.jpg",
+      image: "/exbot.jpg",
       tags: ["html", "css", "Bootstrap", "Framer Motion"],
       github: "#",
       live: "https://exbotupdate.netlify.app/",
@@ -37,8 +52,7 @@ const Projects = () => {
       title: "Warrior - Solar Energy Dashboard",
       description:
         "Dashboard for solar energy management with data visualization and automated reporting features.",
-      image:
-        "/dash-board-min.jpg",
+      image: "/dash-board-min.jpg",
       tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://dahsboard.warriorind.in",
@@ -47,8 +61,7 @@ const Projects = () => {
       title: "Warrior - Solar Power & Energy Solutions",
       description:
         "e-commerce website for solar power and energy solutions. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-        "/warrior-min.jpg",
+      image: "/warrior-min.jpg",
       tags: ["React", "Django", "Docker", "Bootstrap"],
       github: "#",
       live: "https://warriorind.in",
@@ -57,8 +70,7 @@ const Projects = () => {
       title: "P K Stones",
       description:
         "website for displaying stone products created with React and Python ",
-      image:
-        "/stone.jpg",
+      image: "/stone.jpg",
       tags: ["React", "REST API", "MySQL", "Tailwind CSS", "TypeScript"],
       github: "#",
       live: "https://pkstones.com",
@@ -68,8 +80,7 @@ const Projects = () => {
       title: "TEZLA - Energy Solutions",
       description:
         "e-commerce website for energy solutions. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-         "/tezla-min.jpg",
+      image: "/tezla-min.jpg",
 
       tags: ["React", "Python", "Django", "REST API", "SQLite", "Tailwind CSS"],
       github: "#",
@@ -79,8 +90,7 @@ const Projects = () => {
       title: "SUPER MARINE MOTOR CYCLES & JET SKI L.L.C.",
       description:
         "Booking platform for motor cycles and jet skis. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-          "/super-marine-min.jpg",
+      image: "/super-marine-min.jpg",
       tags: [
         "React",
         "Python",
@@ -97,8 +107,7 @@ const Projects = () => {
       title: "CATTA FOOTWEAR",
       description:
         "Footwear website for Catta Footwear. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-          "/catta-min.jpg",
+      image: "/catta-min.jpg",
       tags: ["React", "Bootstrap", "CSS"],
 
       github: "#",
@@ -108,8 +117,7 @@ const Projects = () => {
       title: "ABACCA FOOTWEAR",
       description:
         "Footwear website for Catta Footwear. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-        "/abaca-min.jpg",
+      image: "/abaca-min.jpg",
       tags: ["React", "Bootstrap", "CSS"],
       github: "#",
       live: "https://abacafootwear.com",
@@ -118,8 +126,7 @@ const Projects = () => {
       title: "TWINKLE Offset Press",
       description:
         "Frontend for Twinkle Offset Press, a printing company. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-                "/twinkle-min.jpg",
+      image: "/twinkle-min.jpg",
       tags: ["React", "Tailwind CSS", "TypeScript"],
 
       github: "#",
@@ -129,15 +136,13 @@ const Projects = () => {
       title: "AURA Car Wash",
       description:
         "Frontend UI for AURA Car Wash, a car wash company. Responsive Modern website with smooth animations and optimized performance.",
-      image:
-        "/car-wash-min.jpg",
+      image: "/car-wash-min.jpg",
       tags: ["React", "Tailwind CSS", "TypeScript"],
 
       github: "#",
       live: "https://twinkleoffset.netlify.app/",
     },
   ];
-
 
   return (
     <section id="projects" className="py-20 relative overflow-hidden">
@@ -176,6 +181,7 @@ const Projects = () => {
                 <div className="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.live}
+                    target="_blank"
                     className="w-8 h-8 rounded-full bg-primary/90 flex items-center justify-center hover:bg-primary transition-colors"
                   >
                     <ExternalLink className="w-4 h-4 text-primary-foreground" />
